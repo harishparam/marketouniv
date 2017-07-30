@@ -1,0 +1,247 @@
+{% extends "base.html" %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<title>Turner Manufacturing</title>
+<body>
+
+    {% block navbar %}
+
+    <!--Navbar-->
+    <nav class="navbar navbar-fixed-top navbar-dark bg-primary">
+
+        <!-- Collapse button-->
+        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx2">
+            <i class="fa fa-bars"></i>
+        </button>
+
+        <div class="container">
+
+            <!--Collapse content-->
+            <div class="collapse navbar-toggleable-xs" id="collapseEx2">
+                
+                <!--Navbar Brand-->
+                <a class="navbar-brand"></a>
+                
+                <!--Links-->
+                <ul class="nav navbar-nav">
+                    <!-- <li id="navbar-logo" class="nav-item">
+                        <a class="nav-link">
+                            <img src="../static/img/turner-travel.png">
+                        </a>
+                    </li> -->
+                    <li class="nav-item active">
+                        <a class="nav-link">Accounts & Trade <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Investments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Retirement Guidance  </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Why Turner</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">News and Insights</a>
+                    </li>                    
+                    
+                </ul>
+
+                <ul class="nav navbar-nav nav-flex-icons">
+                    <li class="nav-item btn-group">
+                        <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Content Recommendations</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <a class="dropdown-item" href="http://sjrtp-proxy.marketo.com/proxy/rtp/preview?rtp.cuid=be490296-e57b-430c-9aed-3fc49c52cf17&_dc=1482954438051">Display Ad - Economist</a>
+                            <a class="dropdown-item" href="http://sjrtp-proxy.marketo.com/proxy/rtp/preview?rtp.cuid=8a8b4d06-9461-4ff3-8718-2040b36d3762&_dc=1482954483838">Display Ad - Facebook</a>
+                            <a class="dropdown-item" href="http://sjrtp-proxy.marketo.com/proxy/rtp/preview?rtp.cuid=28bad181-e267-4375-8782-31cd36cdb4ac&_dc=1484177195768">Retargeted - Website</a>
+                            <div class="dropdown-divider"></div>
+                            <h6 class="dropdown-header">Verticals</h6>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="assetmgmt">Asset Management</a>
+                            <a class="dropdown-item" href="healthcare">Healthcare</a>
+                            <a class="dropdown-item" href="highered">Higher Education</a>
+                            <a class="dropdown-item" href="manufacturing">Manufacturing</a>
+                            <a class="dropdown-item" href="financialservices">Retail Banking</a>
+                            <a class="dropdown-item" href="technology">Technology</a>
+                            <a class="dropdown-item" href="travel">Travel</a>      
+                        </div>
+                    </li>       
+                </ul>
+            </div>
+            <!--/.Collapse content-->
+
+        </div>
+
+    </nav>
+    <!--/.Navbar-->
+
+        
+    {% endblock %} 
+
+    {% block carousel_content %}
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-1" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+            <!--First slide-->
+            <div class="carousel-item active" id="rtp-replace" style= "background-image: url(../static/img/asset_hero.jpg)";>
+
+                <!--Caption-->
+                <div class="flex-center animated fadeInDown">
+                    <ul>
+                        <li>
+                            <h1 class="h1-responsive">At Turner, We Make Sense of Investing.</h1></li>
+                        <li>
+                           <a target="_blank" href="http://mdbootstrap.com/material-design-for-bootstrap/" class="btn btn-default btn-lg bg-primary">Read More</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Caption-->
+            </div>
+            <!--/.First slide-->
+
+        </div>
+        <!--/.Slides-->
+        
+    </div>
+    <!--/.Carousel Wrapper-->
+
+    {% endblock %}
+
+    {% block page_content %}
+    <!--Content-->
+    <div class="container">
+        
+        <div class="row">
+            <!--First columnn-->
+            <div class="col-md-4">
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="../static/img/asset_card1.jpg" class="img-fluid" alt="">
+                        <a href="#">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block">
+                        <!--Title-->
+                        <h4 class="card-title">Integrity</h4>
+                        <!--Text-->
+                        <p class="card-text">You expect top-quality investment products and services, and we deliver.</p>
+                        <a href="#" class="btn btn-primary">Learn more</a>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--First columnn-->
+
+            <!--Second columnn-->
+            <div class="col-md-4">
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="../static/img/asset_card2.jpg" class="img-fluid" alt="">
+                        <a href="#">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block">
+                        <!--Title-->
+                        <h4 class="card-title">Focus</h4>
+                        <!--Text-->
+                        <p class="card-text">Maintain a long-term perspective on investments with our disciplined approach.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--Second columnn-->
+
+            <!--Third columnn-->
+            <div class="col-md-4">
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="../static/img/asset_card3.png" class="img-fluid" alt="">
+                        <a href="#">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block">
+                        <!--Title-->
+                        <h4 class="card-title">Stewardship</h4>
+                        <!--Text-->
+                        <p class="card-text">We’re committed to helping simplify your investment decisions so you can meet your objectives.</p>
+                        <a href="#" class="btn btn-primary">Watch Video</a>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--Third columnn-->
+        </div>
+
+        
+        <aside id="mk-sidebar" class="mk-builtin"><div class="sidebar-wrapper">
+            <style>
+                .RTP_RCMD2 {
+                    line-height: normal !important;
+                }
+                .RTP_RCMD2 [data-rtp-id="rtp_rcmd2_tpl_2"] .rtp_rcmd2_img_container {
+                    height: 100% !important;
+                }
+            </style>
+            <div class="RTP_RCMD2" data-rtp-template-id="template1"></div> 
+
+                <script type="text/javascript">// 
+                rtp('set', 'rcmd', 'richmedia','template1',
+                {
+                    "rcmd.title.text" : "RECOMMENDED CONTENT",
+                    "rcmd.cta.text" : "READ MORE",
+                    "rcmd.title.background.color" : "#4285F4",
+                    "rcmd.title.font.color" : "white",
+                    "rcmd.content.background.color" :"#E2E2E2",
+                    "rcmd.cta.background.color" : "#2BBBAD",
+                    "category": ["Asset Management"]
+                }
+                );
+                rtp('get','rcmd', 'richmedia');
+                </script> </div>
+        </aside>
+
+    </div>
+
+
+    <!--/.Content-->
+    {% endblock %}		        
+ 
+
+</body>
+
+</html>

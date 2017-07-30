@@ -1,0 +1,72 @@
+{% extends "base-simple.html" %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% block head %}
+      <title>Predictive Assets | MarketoLive Master</title>
+      
+      <!-- Marketo Munchkin Tag -->
+      <script type="text/javascript">
+        (function () {
+            var didInit = false;
+            function initMunchkin() {
+                if (didInit === false) {
+                    didInit = true;
+                    Munchkin.init('185-NGX-811', {
+                        cookieLifeDays: 365,
+                        cookieAnon: false,
+                        disableClickDelay: true
+                    });
+                }
+            }
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = 'https://munchkin.marketo.net/munchkin.js';
+            s.onreadystatechange = function () {
+                if (this.readyState == 'complete' || this.readyState == 'loaded') {
+                    initMunchkin();
+                }
+            };
+            s.onload = initMunchkin;
+            document.getElementsByTagName('head')[0].appendChild(s);
+            console.log("Munchkin Tag Loaded");
+        })();
+      </script>
+      
+      <!-- Web Personalization Tag -->
+      <script type="text/javascript">
+        (function (c, h, a, f, i, e) {
+            c[a] = c[a] || function () {
+                (c[a].q = c[a].q || []).push(arguments)
+            };
+            c[a].a = i;
+            c[a].e = e;
+            var g = h.createElement("script");
+            g.async = true;
+            g.type = "text/javascript";
+            g.src = f + '?aid=' + i;
+            var b = h.getElementsByTagName("script")[0];
+            b.parentNode.insertBefore(g, b);
+            console.log("Web Personalization Tag Loaded");
+        })(window, document, "rtp", "https://sjrtp3-cdn.marketo.com/rtp-api/v1/rtp.js", "mktodemolivemaster");
+        
+        rtp('send', 'view');
+        rtp('get', 'campaign', true);
+      </script>
+    {% endblock %}
+  </head>
+  <body>
+    {% block page_content %}
+      <h1>{{content}}</h1>
+    {% endblock %}
+    
+    {% block scripts %}
+      <script src="//app-sjdemo1.marketo.com/js/forms2/js/forms2.min.js"></script>
+      <form id="mktoForm_1174"></form>
+      <script>
+        MktoForms2.loadForm("//app-sjdemo1.marketo.com", "185-NGX-811", 1174);
+      </script>
+    {% endblock %}
+  </body>
+</html>

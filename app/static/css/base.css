@@ -1,0 +1,86 @@
+html,
+body {
+    height: 100%;
+}
+/* Navigation*/
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+footer.page-footer {
+    background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+/* Carousel*/
+
+.carousel {
+    height: 65%;
+}
+
+.nav-link img {
+    width: 140px;
+    height: 40px;
+}
+
+@media (max-width: 776px) {
+    .carousel {
+        height: 100%;
+    }
+}
+
+.carousel-item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item:nth-child(1) {
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+}
+
+/*Caption*/
+
+.flex-center {
+    color: #fff;
+}
+
+.icon-image {
+    height:60%;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.icon-section p {
+    text-align: center;
+    margin-top: 1em;
+    color: #ffffff;
+}
+.modal-title {
+    text-align:center;
+    padding-bottom: 2em;
+    color: #ffffff;
+}
+.modal-body {
+    background: url(../static/img/black-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.hover {
+    border: 3px solid #ffffff;
+    border-radius:50%;
+}

@@ -1,0 +1,36 @@
+0000000000000000000000000000000000000000 fee96be9a4dffc8fd38d8ecd1abe4fe6d6ee56cf harishparam <hparameswaran@marketo.com> 1483036796 -0800	commit (initial): Initial Commit
+fee96be9a4dffc8fd38d8ecd1abe4fe6d6ee56cf 534c75937e67649502953b2ae09cdad6e12a7948 harishparam <hparameswaran@marketo.com> 1483038253 -0800	commit: Added Procfile
+534c75937e67649502953b2ae09cdad6e12a7948 593188bd1fb61b9dfe21db0b0187ec71270a3a0e harishparam <hparameswaran@marketo.com> 1483038715 -0800	commit: Temp
+593188bd1fb61b9dfe21db0b0187ec71270a3a0e 66dd131333313a7d84fb17451e138d31f6711bcb harishparam <hparameswaran@marketo.com> 1483038760 -0800	commit: File name changes
+66dd131333313a7d84fb17451e138d31f6711bcb db8f8500433b53dbcdf38e6dc448bafe07cc1660 harishparam <hparameswaran@marketo.com> 1483039979 -0800	merge dev: Fast-forward
+db8f8500433b53dbcdf38e6dc448bafe07cc1660 454e12f8f891a7fedeb1f60c052a52f012b8b85f harishparam <hparameswaran@marketo.com> 1483051715 -0800	commit: Added Supporting files
+454e12f8f891a7fedeb1f60c052a52f012b8b85f 4ea1b6ff1cef0c6a67760f291ad64483cdd0b272 harishparam <hparameswaran@marketo.com> 1483478162 -0800	commit: Added Telecom
+4ea1b6ff1cef0c6a67760f291ad64483cdd0b272 cbe06a29a0b572ea5faaab7eea195c491609c515 harishparam <hparameswaran@marketo.com> 1483726678 -0800	commit: Added TelecomB2b pages and images
+cbe06a29a0b572ea5faaab7eea195c491609c515 7c4393a3fc78cf9a93b75f50e7991751a4740d71 harishparam <hparameswaran@marketo.com> 1484177395 -0800	commit: Added Retargeted Website Links
+7c4393a3fc78cf9a93b75f50e7991751a4740d71 f826d7b891534e5a9498a4ee93a25b0d5783f255 harishparam <hparameswaran@marketo.com> 1485538228 -0800	commit: Corrected links in microsite
+f826d7b891534e5a9498a4ee93a25b0d5783f255 df14b85ae448342d03cbfa6d5d32f1eecf179720 harishparam <hparameswaran@marketo.com> 1486580458 -0800	pull origin master: Fast-forward
+df14b85ae448342d03cbfa6d5d32f1eecf179720 9c42e56e1ed6fbf3e23a7e40de541feee18817b1 harishparam <hparameswaran@marketo.com> 1486739821 -0800	pull origin master: Fast-forward
+9c42e56e1ed6fbf3e23a7e40de541feee18817b1 de21ff0280d72b5d1b50e1a759e7738e886330a9 harishparam <hparameswaran@marketo.com> 1486748204 -0800	commit: Added Predictive Template for 106d
+de21ff0280d72b5d1b50e1a759e7738e886330a9 4c3093689a728ebb1e3f81c5681690a1428fac7e harishparam <hparameswaran@marketo.com> 1486754094 -0800	commit: Added Predictive Template for 106d
+4c3093689a728ebb1e3f81c5681690a1428fac7e 1e7fde3d44c2ded6f395e3cbf41a0e621038f1c8 harishparam <hparameswaran@marketo.com> 1486754115 -0800	commit: Added Predictive Template for 106d
+1e7fde3d44c2ded6f395e3cbf41a0e621038f1c8 af012ea0a567848a4abaf94a5600469409f13d18 harishparam <hparameswaran@marketo.com> 1486754975 -0800	commit: Updated Predictive Template for 106d
+af012ea0a567848a4abaf94a5600469409f13d18 ec38a42ead4033a5b537cbae6b139f7d6286d55b harishparam <hparameswaran@marketo.com> 1486755298 -0800	commit: Updated cleanbase Template for 106d
+ec38a42ead4033a5b537cbae6b139f7d6286d55b 9f737cc4ec4cd5d1ca49315022cf3d198baede8a harishparam <hparameswaran@marketo.com> 1486766425 -0800	merge dev: Fast-forward
+9f737cc4ec4cd5d1ca49315022cf3d198baede8a d30549d0d52e0ba4ad46a39bcdf999ad8ada69c0 harishparam <hparameswaran@marketo.com> 1487361107 -0800	merge dev: Fast-forward
+d30549d0d52e0ba4ad46a39bcdf999ad8ada69c0 f021a1189a5fb22f81ca2cdeb00887a0882d1d20 harishparam <hparameswaran@marketo.com> 1488842644 -0800	merge dev: Fast-forward
+f021a1189a5fb22f81ca2cdeb00887a0882d1d20 9a113dd02692d689360347378960cab7e08bbf6c harishparam <hparameswaran@marketo.com> 1489384046 -0700	pull origin master: Fast-forward
+9a113dd02692d689360347378960cab7e08bbf6c dc2a02fb946989b5828fd908b1724bc2d75583ad harishparam <hparameswaran@marketo.com> 1489384087 -0700	merge dev: Fast-forward
+dc2a02fb946989b5828fd908b1724bc2d75583ad 9238150eaddaee0184eab282cc0a00784073b30b harishparam <hparameswaran@marketo.com> 1489416655 -0700	merge dev: Fast-forward
+9238150eaddaee0184eab282cc0a00784073b30b a4b910edededc2b2005ba6c01de7422d4dcafd7c harishparam <hparameswaran@marketo.com> 1489418037 -0700	merge dev: Fast-forward
+a4b910edededc2b2005ba6c01de7422d4dcafd7c a25c14a3b19d6cc065d54832c8362ffaac5eb2b8 harishparam <hparameswaran@marketo.com> 1489418413 -0700	merge dev: Fast-forward
+a25c14a3b19d6cc065d54832c8362ffaac5eb2b8 45e8e5ebcd1dbf002294fc9f6cb0560f5c5a1f5e harishparam <hparameswaran@marketo.com> 1489421717 -0700	merge dev: Fast-forward
+45e8e5ebcd1dbf002294fc9f6cb0560f5c5a1f5e a95ef00eaed2d500c16c4548911757a3002e15db harishparam <hparameswaran@marketo.com> 1489421860 -0700	commit: WSJ ad changes
+a95ef00eaed2d500c16c4548911757a3002e15db 944c90b5c28209ca4d2e57269d95eaac5bb323c8 harishparam <hparameswaran@marketo.com> 1489421982 -0700	merge dev: Merge made by the 'recursive' strategy.
+944c90b5c28209ca4d2e57269d95eaac5bb323c8 246a05a383839a8f2d4eea803e2ac548ee463083 harishparam <hparameswaran@marketo.com> 1489445289 -0700	merge dev: Merge made by the 'recursive' strategy.
+246a05a383839a8f2d4eea803e2ac548ee463083 d2d2ad1615b3c59a43b3f3f471193540a068278b harishparam <hparameswaran@marketo.com> 1489445579 -0700	commit: Channel Engagement
+d2d2ad1615b3c59a43b3f3f471193540a068278b f98fa4f6846a887887f973bd1e2e60022ee98730 harishparam <hparameswaran@marketo.com> 1489445705 -0700	commit: Channel Engagement
+f98fa4f6846a887887f973bd1e2e60022ee98730 cf598f25e35ff10fce1a420a495e426a03011049 harishparam <hparameswaran@marketo.com> 1489446167 -0700	merge dev: Merge made by the 'recursive' strategy.
+cf598f25e35ff10fce1a420a495e426a03011049 03e859610d251accb6fa4bdc4aa9ba9cabae40f7 harishparam <hparameswaran@marketo.com> 1489446253 -0700	commit: Tivo backgroun
+03e859610d251accb6fa4bdc4aa9ba9cabae40f7 681fcbfc005f73313db7c956daf1ed2637960bfa harishparam <hparameswaran@marketo.com> 1489447217 -0700	merge dev: Merge made by the 'recursive' strategy.
+681fcbfc005f73313db7c956daf1ed2637960bfa b08b45804b7a8e26fcadd064fe3637c3d3610956 harishparam <hparameswaran@marketo.com> 1490132223 -0700	merge dev: Merge made by the 'recursive' strategy.
+b08b45804b7a8e26fcadd064fe3637c3d3610956 1752e70536e04f9f141c7244682b85c61d290655 harishparam <hparameswaran@marketo.com> 1490132285 -0700	pull origin master: Merge made by the 'recursive' strategy.

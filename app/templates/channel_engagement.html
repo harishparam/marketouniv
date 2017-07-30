@@ -1,0 +1,66 @@
+<html>
+<head>
+
+ <style>
+      body {
+        background-image: url("../static/img/Tivo_shows_two_discover.jpg");
+        background-color: #e9eaed;
+        background-size: 1921px auto;
+        background-repeat: no-repeat;
+        height: 800px;
+      }
+
+        #bglink {
+                display:block;
+                height:100%;
+                width:100%;
+                position:fixed;
+                left:0;
+                top:0;
+                z-index:0;
+                text-indent:-5000em;
+                /* If you want to make only a part of background clickable,
+                     adjust height/width/left/top here. */
+        }   
+      #placeholder-1 {
+        position: absolute;
+        top: 420px;
+        left: 856px;
+        width: 260px;
+        height: 225px;
+      }
+
+      #placeholder-2 {
+        position: absolute;
+        top: 675px;
+        left: 856px;
+        width: 260px;
+        height: 225px;
+      }          
+
+    </style>
+
+<script>
+function show(shown, hidden) {
+  document.getElementById(shown).style.display='block';
+  document.getElementById(hidden).style.display='none';
+  return false;
+}
+</script>
+</head>
+<body>
+
+  <div id="Email">
+   <p></p>
+   <p style="text-align:center;"> <a href="#" onclick="return show('Mobile','Email');"><img src="../static/img/tivo_email.png"></a></p>    
+   </div>
+
+  <div id="Mobile" style="display:none">
+   <p></p>
+   <p style="text-align:center;"><a href="#2" onclick="return show('Email','Mobile');"><img src="../static/img/tivo_mobile.png"></a></p>
+    
+  </div>
+
+</body>
+</html>
+

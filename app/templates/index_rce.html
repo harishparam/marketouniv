@@ -1,0 +1,196 @@
+{% extends "base.html" %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<title>Turner Technologies</title>
+<body>
+
+    {% block navbar %}
+
+    <!--Navbar-->
+    <nav class="navbar navbar-fixed-top navbar-dark bg-primary">
+
+        <!-- Collapse button-->
+        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx2">
+            <i class="fa fa-bars"></i>
+        </button>
+
+        <div class="container">
+
+            <!--Collapse content-->
+            <div class="collapse navbar-toggleable-xs" id="collapseEx2">
+                
+                <!--Navbar Brand-->
+                <a class="navbar-brand"></a>
+                
+                <!--Links-->
+                <ul class="nav navbar-nav">
+                    <!-- <li id="navbar-logo" class="nav-item">
+                        <a class="nav-link">
+                            <img src="../static/img/turner-travel.png">
+                        </a>
+                    </li> -->
+                    <li class="nav-item active">
+                        <a class="nav-link">Products <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Why Turner </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Resources</a>
+                    </li>                    
+                    
+                </ul>
+
+                <ul class="nav navbar-nav nav-flex-icons">
+                    <li class="nav-item btn-group">
+                        <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Content Recommendations</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <h6 class="dropdown-header">Retargeting</h6>
+                            <a class="dropdown-item" href="http://verticals.marketolive.com/technology">Turner Tech Website</a>
+                            <a class="dropdown-item" href="http://verticals.marketolive.com/predictive-content-106?param=finserv">Financial Sector</a>
+                            <a class="dropdown-item" href="http://verticals.marketolive.com/predictive-content-106?param=cio">CIO Persona</a>
+                            <a class="dropdown-item" href="http://verticals.marketolive.com/predictive-content-106?param=acme">Named Account</a>
+                            <div class="dropdown-divider"></div>
+                            <h6 class="dropdown-header">Predictive Content</h6>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="assetmgmt">Asset Management</a>
+                            <a class="dropdown-item" href="healthcare">Healthcare</a>
+                            <a class="dropdown-item" href="highered">Higher Education</a>
+                            <a class="dropdown-item" href="manufacturing">Manufacturing</a>
+                            <a class="dropdown-item" href="financialservices">Retail Banking</a>
+                            <a class="dropdown-item" href="technology">Technology</a>
+                            <a class="dropdown-item" href="travel">Travel</a>         
+                        </div>
+                    </li>       
+                </ul>
+            </div>
+            <!--/.Collapse content-->
+
+        </div>
+
+    </nav>
+    <!--/.Navbar-->
+
+        
+    {% endblock %} 
+
+ {% block page_content %}
+ <!--Section: Blog v.1-->
+<section class="section extra-margins">
+
+    <!--Section heading-->
+    <h1 class="section-heading">Section title</h1>
+    <!--Section sescription-->
+    <p class="section-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <!--First row-->
+    <div class="row">
+
+        <!--First column-->
+        <div class="col-md-5 mb-r">
+            <!--Featured image-->
+            <div class="view overlay hm-white-slight">
+                <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img%20(80).jpg" alt="Sample image for first version of blog listing">
+                <a>
+                    <div class="mask waves-effect waves-light"></div>
+                </a>
+            </div>
+        </div>
+        <!--/First column-->
+
+        <!--Second column-->
+        <div class="col-md-7 mb-r">
+            <!--Excerpt-->
+            <a href="" class="amber-text"><h5><i class="fa fa-diamond"></i>Fashion</h5></a>
+            <h4>Classic outfit - white off-shoulder top and denim.</h4>
+            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis aut rerum.</p>
+            <p>by <a><strong>Carine Fox</strong></a>, 19/08/2016</p>
+            <a class="btn btn-cyan">Read more</a>
+        </div>
+        <!--/Second column-->
+
+    </div>
+    <!--/First row-->
+
+    <hr>
+
+    <!--Second row-->
+    <div class="row">
+
+        <!--First column-->
+        <div class="col-md-7 mb-r">
+            <!--Excerpt-->
+            <a href="" class="indigo-text"><h5><i class="fa fa-coffee"></i>Lifestyle</h5></a>
+            <h4>Berlin at the weekend - the best donuts in the city.</h4>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident et dolorum fuga.</p>
+            <p>by <a><strong>Carine Fox</strong></a>, 14/08/2016</p>
+            <a class="btn btn-cyan">Read more</a>
+        </div>
+        <!--/First column-->
+
+        <!--Second column-->
+        <div class="col-md-5 mb-r">
+            <!--Featured image-->
+            <div class="view overlay hm-white-slight">
+                <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img%20(91).jpg" alt="Second image in the first version of blog listing">
+                <a>
+                    <div class="mask waves-effect waves-light"></div>
+                </a>
+            </div>
+        </div>
+        <!--/Second column-->
+
+    </div>
+    <!--/Second row-->
+
+    <hr>
+
+    <!--Third row-->
+    <div class="row">
+
+        <!--First column-->
+        <div class="col-md-5 mb-r">
+            <!--Featured image-->
+            <div class="view overlay hm-white-slight">
+                <img src="https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(32).jpg" alt="Thrid image in the blog listing.">
+                <a>
+                    <div class="mask waves-effect waves-light"></div>
+                </a>
+            </div>
+        </div>
+        <!--/First column-->
+
+        <!--Second column-->
+        <div class="col-md-7 mb-r">
+            <!--Excerpt-->
+            <a href="" class="pink-text"><h5><i class="fa fa-suitcase"></i>Travels</h5></a>
+            <h4>Guide to the beautiful Cinque Terre.</h4>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro qui dolorem ipsum quia sit amet, consectetur.</p>
+            <p>by <a><strong>Carine Fox</strong></a>, 11/08/2016</p>
+            <a class="btn btn-cyan">Read more</a>
+        </div>
+        <!--/Second column-->
+
+    </div>
+    <!--/Third row-->
+
+</section>
+<!--/Section: Blog v.1-->
+
+    <!--/.Content-->
+    {% endblock %}		        
+ 
+
+</body>
+
+</html>

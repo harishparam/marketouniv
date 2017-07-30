@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>Economist</title>
+		<style>
+			body {
+				background-image: url("../static/img/economist_background.jpg");
+				background-color: #ffffff;
+				background-size: 1260px auto;
+				background-repeat: no-repeat;
+				height: 4800px;
+				margin: 0px;
+				position: relative;
+			}
+
+			#banner-ad1 {
+				position: absolute;
+				top: 0px;
+				left: 150px;
+			}
+			
+		</style>
+		
+<!-- Marketo Munchkin Code -->
+<script type="text/javascript">
+(function() {
+  var didInit = false;
+  function initMunchkin() {
+    if(didInit === false) {
+      didInit = true;
+      Munchkin.init('026-COU-482');
+    }
+  }
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//munchkin.marketo.net/munchkin.js';
+  s.onreadystatechange = function() {
+    if (this.readyState == 'complete' || this.readyState == 'loaded') {
+      initMunchkin();
+    }
+  };
+  s.onload = initMunchkin;
+  document.getElementsByTagName('head')[0].appendChild(s);
+})();
+</script>
+
+<!-- RTP tag --> 
+<script type='text/javascript'>
+(function(c,h,a,f,i,e){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+ c[a].a=i;c[a].e=e;var g=h.createElement("script");g.async=true;g.type="text/javascript";
+ g.src=f+'?aid='+i;var b=h.getElementsByTagName("script")[0];b.parentNode.insertBefore(g,b);
+ })(window,document,"rtp","//sjrtp-cdn.marketo.com/rtp-api/v1/rtp.js","marketodemoaccount106");
+ 
+rtp('send','view');
+rtp('get', 'campaign',true);
+</script>
+<!-- End of RTP tag -->
+
+	</head>
+	<body>
+		<div id="banner-ad1"><img src="http://placehold.it/970x250" /></div>
+	</body>
+</html>

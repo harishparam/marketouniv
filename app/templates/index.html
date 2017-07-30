@@ -1,0 +1,255 @@
+{% extends "base.html" %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<title>Turner Technologies</title>
+<body>
+
+    {% block navbar %}
+
+    <!--Navbar-->
+    <nav class="navbar navbar-fixed-top navbar-dark bg-primary">
+
+        <!-- Collapse button-->
+        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx2">
+            <i class="fa fa-bars"></i>
+        </button>
+
+        <div class="container">
+
+            <!--Collapse content-->
+            <div class="collapse navbar-toggleable-xs" id="collapseEx2">
+                
+                <!--Navbar Brand-->
+                <a class="navbar-brand"></a>
+                
+                <!--Links-->
+                <ul class="nav navbar-nav">
+                    <!-- <li id="navbar-logo" class="nav-item">
+                        <a class="nav-link">
+                            <img src="../static/img/turner-travel.png">
+                        </a>
+                    </li> -->
+                    <li class="nav-item active">
+                        <a class="nav-link">Products <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Why Turner </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Resources</a>
+                    </li>                    
+                    
+                </ul>
+
+                <ul class="nav navbar-nav nav-flex-icons">
+                    <li class="nav-item btn-group">
+                        <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <h6 class="dropdown-header">Web Personalization</h6>
+                            <a class="dropdown-item" href="http://verticals.marketolive.com/technology">Turner Tech Website</a>
+                            <a class="dropdown-item" href="http://verticals.marketolive.com/predictive-content-106?param=finserv">Financial Sector</a>
+<!--                             <a class="dropdown-item" href="http://verticals.marketolive.com/predictive-content-106?param=cio">CIO Persona</a>
+                             -->                            
+                             <a class="dropdown-item" href="http://verticals.marketolive.com/predictive-content-106?param=acme">Acme Named Account</a>
+                             <div class="dropdown-divider"></div>
+                               <h6 class="dropdown-header">Predictive Content</h6>
+                               <div class="dropdown-divider"></div>
+                               <a class="dropdown-item" href="technology">Rich Media </a>
+                               <a class="dropdown-item" href="healthcare">Rich Media - Vertical</a>
+                               <a class="dropdown-item" href="highered">Recommendation Bar</a>
+                               <div class="dropdown-divider"></div>
+                               <a class="dropdown-item" href="verticals">Vertical Microsite</a>
+                               <div class="dropdown-divider"></div>
+                               
+                               
+                <!--          <a class="dropdown-item" href="financialservices">Retail Banking</a>
+                              <a class="dropdown-item" href="technology">Technology</a>
+                              <a class="dropdown-item" href="travel">Travel</a>
+                   -->       
+                        </div>
+                    </li>       
+                </ul>
+            </div>
+            <!--/.Collapse content-->
+
+        </div>
+
+    </nav>
+    <!--/.Navbar-->
+
+        
+    {% endblock %} 
+
+    {% block carousel_content %}
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-1" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+            <!--First slide-->
+            <div class="carousel-item active" id="rtp-replace" style="background-image: url(../static/img/generic_hero.jpg)">
+
+                <!--Caption-->
+                <div class="flex-center animated fadeInDown">
+                    <ul>
+                        <li>
+                            <h1 class="h1-responsive">Enterprise Grade Cloud Infrastructure</h1></li>
+                        <li>
+                           <a target="_blank" href="http://mdbootstrap.com/material-design-for-bootstrap/" class="btn btn-default btn-lg bg-primary">Learn More</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Caption-->
+            </div>
+            <!--/.First slide-->
+
+        </div>
+        <!--/.Slides-->
+        
+    </div>
+    <!--/.Carousel Wrapper-->
+
+    {% endblock %}
+
+    {% block page_content %}
+    <!--Content-->
+    <div class="container">
+        
+        <div class="row">
+            <!--First columnn-->
+            <div class="col-md-4">
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="../static/img/tech_card1.jpg" class="img-fluid" alt="">
+                        <a href="#">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block">
+                        <!--Title-->
+                        <h4 class="card-title">What is Hybrid Cloud ?</h4>
+                        <!--Text-->
+                        <p class="card-text">Hybrid Cloud : All the perks of private datacenter with scalability of the cloud</p>
+                        <a href="#" class="btn btn-primary">Learn more</a>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--First columnn-->
+
+            <!--Second columnn-->
+            <div class="col-md-4">
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="../static/img/tech_card2.jpg" class="img-fluid" alt="">
+                        <a href="#">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block">
+                        <!--Title-->
+                        <h4 class="card-title">Instant Data Protection</h4>
+                        <!--Text-->
+                        <p class="card-text">Check out how Turner Technologies rescued Ace Media’s data with a Hybrid Cloud Backup.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--Second columnn-->
+
+            <!--Third columnn-->
+            <div class="col-md-4">
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="../static/img/tech_card3.jpg" class="img-fluid" alt="">
+                        <a href="#">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block">
+                        <!--Title-->
+                        <h4 class="card-title">Industry Case Study</h4>
+                        <!--Text-->
+                        <p class="card-text">See how our Cloud Solutions are helping our Financial Customers achieve Data Compliance requirements.</p>
+                        <a href="#" class="btn btn-primary">Watch Video</a>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--Third columnn-->
+        </div>
+
+        
+        <aside id="mk-sidebar" class="mk-builtin"><div class="sidebar-wrapper">
+            <style>
+                .RTP_RCMD2 {
+                    line-height: normal !important;
+                }
+                .RTP_RCMD2 [data-rtp-id="rtp_rcmd2_tpl_2"] .rtp_rcmd2_img_container {
+                    height: 100% !important;
+                }
+            </style>
+            <div class="RTP_RCMD2" data-rtp-template-id="template1"></div> 
+
+                <script type="text/javascript">// 
+                rtp('set', 'rcmd', 'richmedia','template1',
+                {
+                    "rcmd.title.text" : "RECOMMENDED CONTENT",
+                    "rcmd.cta.text" : "READ MORE",
+                    "rcmd.title.background.color" : "#4285F4",
+                    "rcmd.title.font.color" : "white",
+                    "rcmd.content.background.color" :"#E2E2E2",
+                    "rcmd.cta.background.color" : "#2BBBAD",
+                    "category": ["TECH"]
+                }
+                );
+                rtp('get','rcmd', 'richmedia');
+                </script> </div>
+        </aside>
+
+    </div>
+
+
+    <!--/.Content-->
+    {% endblock %}		        
+ 
+
+</body>
+
+</html>
