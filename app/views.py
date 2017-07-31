@@ -29,6 +29,7 @@ pages = [
   'verticals',
   'student8',
   'student9',
+  'student10',
   'predictive-content',
   'predictive-content-106',
   'predictive-content-106d',
